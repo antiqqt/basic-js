@@ -23,10 +23,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function getDNSStats(domains) {
-<<<<<<< HEAD
-=======
-  // npm run test ./test/dns*
->>>>>>> f21de726d82d7e1c3a7031298f6989e086cdb8fe
   const result = {};
 
   domains.forEach((str) => {
